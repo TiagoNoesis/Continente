@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open Website</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ccd0439-aee6-474a-88eb-9dba1e216bbd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>088bd895-afcb-4dad-baf4-ceab578cd707</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>088bd895-afcb-4dad-baf4-ceab578cd707</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
