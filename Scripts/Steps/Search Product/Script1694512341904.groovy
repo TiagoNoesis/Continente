@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('InputSearchProduct'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/InputSearchProduct'), 0)
 
-WebUI.setText(findTestObject('InputSearchProduct'), product)
+WebUI.setText(findTestObject('Object Repository/InputSearchProduct'), product)
 
-WebUI.sendKeys(findTestObject('InputSearchProduct'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/InputSearchProduct'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 

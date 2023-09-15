@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('show cart'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/show cart'), 0)
 
-WebUI.click(findTestObject('show cart'))
+WebUI.click(findTestObject('Object Repository/show cart'))
 
-WebUI.waitForElementVisible(findTestObject('cart button'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/cart button'), 0)
 
 WebUI.takeScreenshotAsCheckpoint('Cart Finished')
 

@@ -12,7 +12,7 @@
       <variableId>62b5a2c0-c2b6-4a8a-8b2f-ff8345fd1603</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Massa'</defaultValue>
       <description></description>
       <id>62b5a2c0-c2b6-4a8a-8b2f-ff8345fd1603</id>
       <masked>false</masked>
